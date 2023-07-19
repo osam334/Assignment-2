@@ -1,0 +1,232 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;700;800&display=swap');
+
+
+  
+  body{
+    font-family: 'Work Sans', sans-serif;
+  }
+
+*{
+    box-sizing: border-box;
+}
+.nav-container{
+   
+    min-height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: #FFF;
+    
+}
+.logo-cotainer{
+    display: flex;
+    align-items: center;
+}
+
+.nav-photo{
+    width: 50px; 
+    height: 25px;
+    margin-right: 10px;
+    
+} 
+.nav-content{
+    width: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav-content a{
+    text-decoration: none;
+    
+}
+.h2-G{
+    color:palevioletred;
+}
+.nav-text{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 10px;
+}
+/* nav section end */
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-img{
+    height: 30%;
+    width: 90%;
+}
+.banner-content{
+    margin-right: 10px;
+    
+}
+.banner-heading{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+}
+.banner-text{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.sign-btn{
+    padding: 10px 20px;
+    border-radius: 48px;
+    background-color: #F948B2;
+    
+}
+.rough-btn{
+    padding: 10px 20px;
+    border-radius: 48px;
+    background-color: #4EC5F7; 
+}
+/* banner section end */
+/* card section start */
+.card-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-text{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1400px;
+    min-height: 400px;
+    margin: 50px auto 0;
+}
+.card p{
+    color: #534C64;
+   
+}
+.card:hover{
+   background: #0B0223;
+}
+/* card section end */
+/* play section start */
+.play{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 70px;
+}
+.play-photo{
+    width: 50%;
+    padding: 50px;
+}
+.play-photo2{
+    margin-top: -300px;
+    margin-left: 500px;
+}
+.play-h1{
+    color: #F948B2;
+    font-size: 35px;
+    font-weight: 600;   
+   
+}
+/* games section */
+.games{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.game{
+   
+    border-radius: 60px;
+    background: #FFF;
+    flex-basis: 300px;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+}
+.game:hover{
+    color: #8758F1;
+    border: 2px solid red;
+}
+.games-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.game img{
+    height: 60px;
+    width: 60px;
+}
+/* games section end  */
+/* footer secction  */
+.footer{
+    
+    height:500px;
+    background-color: #0B0223;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    gap: 10px;
+    
+}
+.footer-text{
+    color:white;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin-top: 50px;
+    gap: 50px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #FFF;
+}
+.footer-text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #FFF;
+}
+.footer-p{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
